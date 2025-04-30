@@ -1,0 +1,35 @@
+    1  git config --global user.name "Anna Koretska"
+    2  git config --global user.email anna.koretskaya.831@gmail.com
+    3  git clone https://github.com/Anna-i-hub/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  nano gitignore
+    7  cat text_ignore.txt
+    8  nano gitignore
+    9  git status text_ignore.txt
+   10  gid add text_ignore.txt
+   11  git status text_ignore.txt
+   12  git add text_ignore.txt
+   13  git commit -m "New File"
+   14  touch main_test.txt
+   15  git add main_test.txt
+   16  git commit -m "New file 2"
+   17  git status main_test.txt
+   18  git checkout -b_develop
+   19  git checkout branch_develop
+   20  touch develop_test.txt
+   21  git add develop_test.txt
+   22  git commit -m "New file 3"
+   23  nano develop_test.txt
+   24  git status devolop_test.txt
+   25  git status develop_test.txt
+   26  git add develop_test.txt
+   27  git commit -m "New file 4"
+   28  git checkout branch_main
+   29  git checkout branch_main
+   30  git checkout branch main
+   31  git status develop_test.txt
+   32  git checkout main
+   33  git merge _develop
+   34  git log
+   35  history >command_list.csv
